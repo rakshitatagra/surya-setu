@@ -1,0 +1,12 @@
+{
+  "note": "PM Surya Ghar central subsidy tiers per MNRE guidelines. Verify against the current MNRE circular before relying on this for real numbers - subsidy rules can and do change.",
+  "central_subsidy": {
+    "rate_per_kw_first_2kw": 30000,
+    "rate_per_kw_third_kw": 18000,
+    "max_capacity_kw_considered": 3
+  },
+  "state_top_up": {
+    "note": "Illustrative placeholder - state top-ups vary by state and are revised independently of the central scheme. Fill in real per-state values as you validate them; 14 states currently offer some top-up.",
+    "DL": 0
+  }
+}

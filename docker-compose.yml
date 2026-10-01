@@ -1,0 +1,27 @@
+# v1 dev setup: just the API. Redis/Postgres are commented out until
+# Phase 8 (async Celery pipeline) actually needs them - see docs/ROADMAP.md.
+version: "3.9"
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    env_file:
+      - .env.example
+
+  # redis:
+  #   image: redis:7-alpine
+  #   ports:
+  #     - "6379:6379"
+
+  # postgres:
+  #   image: postgis/postgis:16-3.4
+  #   environment:
+  #     POSTGRES_USER: surya
+  #     POSTGRES_PASSWORD: surya
+  #     POSTGRES_DB: suryasetu
+  #   ports:
+  #     - "5432:5432"

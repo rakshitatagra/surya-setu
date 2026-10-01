@@ -1,0 +1,17 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+pvlib==0.11.1
+shapely==2.0.6
+numpy==1.26.4
+pandas==2.2.3
+requests==2.32.3
+python-dotenv==1.0.1
+pytest==8.3.3
+
+# --- Phase 8 additions (uncomment when wiring the async job pipeline) ---
+# celery==5.4.0
+# redis==5.0.8
+# sqlalchemy==2.0.35
+# psycopg2-binary==2.9.9
+# geoalchemy2==0.15.2

@@ -1,0 +1,12 @@
+{
+  "note": "ILLUSTRATIVE sample slabs for demonstration and testing only. Replace with the real, current DISCOM tariff order for your target state/utility before using this for any real financial decision. Tariffs are revised periodically - treat this file as one dated, versioned snapshot, not a permanent source of truth.",
+  "state": "DL",
+  "discom": "Sample-Illustrative-Delhi",
+  "effective_date": "2026-01-01",
+  "slabs": [
+    {"upto_units": 200, "rate_per_unit": 3.0},
+    {"upto_units": 400, "rate_per_unit": 4.5},
+    {"upto_units": 800, "rate_per_unit": 6.5},
+    {"upto_units": null, "rate_per_unit": 8.0}
+  ]
+}
